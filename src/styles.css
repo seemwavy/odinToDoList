@@ -1,0 +1,92 @@
+.task {
+    background-color: darkslateblue;
+    border: solid black 1px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    justify-self: flex-start;
+}
+.listBox {
+    background-color: tomato;
+    gap: 5px;
+        border: solid white 1px;
+        border-radius: 25px;
+}
+h1 {
+    color: white;
+}
+#sidebar {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+#mover {
+    display: flex;
+    justify-content: flex-end;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("803.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.redDot {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.greenDot {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellowDot {
+    height: 25px;
+    width: 25px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+#mainScreen {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aqua;
+    padding: 3em;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#subScreen {
+    background-color: cadetblue;
+    padding: 3em;
+}
+.icon {
+    max-height: 2em;
+    max-width: 2em;
+    justify-self: center;
+    align-self: flex-end;
+}
+#display {
+    background-color: white;
+}
